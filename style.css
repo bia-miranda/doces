@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body{
+    background-color: #efefef;
+}
+header {
+    text-align: center;
+}
+
+.titulo,
+.logo,
+h2 {
+    font-family: 'Bahiana';
+    text-align: center;
+    color: #f69eac;
+}
+h2{
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+.logo {
+    font-size: 4rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4b4b4b;
+}
+nav ul a:hover {
+    transition: 0.3s;
+    color: #f69eac;
+}
+span{
+color: #653321;
+}
+nav ul {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.imagem-principal {
+    margin-top: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-principal img {
+    width: 45vh;
+}
+
+.titulo {
+    margin-top: 2.5rem;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.texto-principal h2 {
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+p{
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.botao{
+    background-color: transparent;
+    border-radius: 15px;
+    border: solid 2px #653321;
+    padding: 1rem;
+    font-family: 'Poppins';
+   text-align: center;
+   margin: 1rem;
+   font-weight: bolder;
+   color: #653321;
+}
+
+.botao:hover{
+    transition: 0.3s;
+    background-color: #653321;
+    color:#efefef
+}
+.produto{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-prod{
+    overflow: hidden;
+    width: 40%;
+    height: 30vh;
+    margin: 1rem;
+}
+.img-prod img{
+    width: 30rem;
+}
