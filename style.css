@@ -53,14 +53,13 @@ nav ul {
 }
 
 .imagem-principal {
-    margin-top: 3rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
 
 .imagem-principal img {
-    width: 30vh;
+    width: 37vh;
 }
 
 .titulo {
